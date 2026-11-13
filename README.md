@@ -1,16 +1,15 @@
-# home-lab
-
-Ubuntu Server running on a retired Lenovo IdeaPad 100S, providing network wide ad blocking for every device on the home network.
+# Personal homelab
+Ubuntu Server running on an old, unused Lenovo IdeaPad 100S, providing network wide ad blocking for every device on the home network.
 
 ---
 
 ## Hardware
 
-Lenovo IdeaPad 100S. Low power, quiet, and otherwise unused. Repurposing it avoided buying a Raspberry Pi and kept a working machine out of a drawer.
+Lenovo IdeaPad 100S. Low power draw, quiet, & otherwise unused. Repurposing it avoided buying a Raspberry Pi and put already owned hardware to use.
 
 ---
 
-## What it runs
+## Software
 
 **Ubuntu Server**
 
@@ -25,7 +24,7 @@ Lenovo IdeaPad 100S. Low power, quiet, and otherwise unused. Repurposing it avoi
 
 ---
 
-## Why a DNS level blocker
+## Why a DNS level blocker?
 
 A browser extension only protects that browser on that device. Blocking at DNS means the request never leaves the network, so it covers every device and every app.
 
